@@ -33,11 +33,11 @@ function App() {
         }
     };
 
-    useEffect(() => {
-        if (currencyInfo) {
-            convert();
-        }
-    }, [currencyInfo, amount, from, to]);
+    // useEffect(() => {
+    //     if (currencyInfo) {
+    //         convert();
+    //     }
+    // }, [currencyInfo, amount, from, to]);
 
     if (error) {
         return <p>Error fetching currency data: {error}</p>;

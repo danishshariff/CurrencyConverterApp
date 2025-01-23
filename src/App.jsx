@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
 import InputBox from "./components/InputBox";
-import useCurrencyInfo from "./hooks/usecurrencyinfo";
+import useCurrencyInfo from "./hooks/useCurrencyInfo";
 import currencyMap from "./utils/currencyMap";
 
 function App() {

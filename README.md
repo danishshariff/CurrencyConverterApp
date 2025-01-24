@@ -2,6 +2,7 @@
 
 Currency Genie is a web application that allows users to convert between different currencies using live exchange rates. The application is built with React and uses custom hooks for fetching and managing currency data.
 
+
 ## Demo
 
 Check out the live demo of the app: [Currency Genie](https://currencygenie.netlify.app/)
